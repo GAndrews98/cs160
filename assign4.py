@@ -23,7 +23,7 @@ def mainPro():
 		global random
 		random = None
 		while random is None:
-			dec = int(input("Please input any positive number: "))
+			dec = input("Please input any positive number: ")
 			try:
 				random = int(dec)
 			except ValueError:
